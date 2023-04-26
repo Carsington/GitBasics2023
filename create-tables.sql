@@ -6,3 +6,13 @@ create table chanteur (
     nom varchar2(50) NOT NULL,
     birthdate date
 );
+
+create table chanson (
+    id integer
+        GENERATED ALWAYS AS IDENTITY
+        constraint pk_chanson primary key,
+    title varchar2(150) NOT NULL,
+    id_chanteur integer
+);
+
+alter table chanson
