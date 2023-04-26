@@ -1,3 +1,9 @@
 # First Git Project
 
-I like trains. This is a test, I still like trains
+I like trains.
+
+## Local commands
+- git init
+- git status
+- git add/rm
+- git commit
